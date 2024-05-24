@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ...................bootstrap-css-link -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <!-- .........................internal-css -->
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%) !important;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: none !important;
+        }
+
+
+        .temp-card {
+            margin-top: 30px !important;
+            text-align: center;
+            border: 3px solid rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 7px 6px 5px 0px rgba(174, 172, 172, 0.75);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /*............................ media-queries */
+        /* ...................................for-computers */
+        @media (max-width:2560px) and (min-width:1024px){
+    body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%) !important;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block !important;
+        }
+
+
+        .temp-card {
+            margin-top: 30px !important;
+            text-align: center;
+            border: 3px solid rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 7px 6px 5px 0px rgba(174, 172, 172, 0.75);
+            margin: mx-auto !important;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
+}
+/* ...............................for-laptops */
+@media (max-width:1024px) and (min-width:770px){
+    body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%) !important;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block !important;
+        }
+
+
+        .temp-card {
+            margin-top: 30px !important;
+            text-align: center;
+            border: 3px solid rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 7px 6px 5px 0px rgba(174, 172, 172, 0.75);
+            margin: mx-auto !important;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
+}
+
+
+        /* ..........................for-tablet */
+        @media (max-width:769px) and (min-width:426px) {
+            body {
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+                background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                    linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                    linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%) !important;
+                
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: block !important;
+            }
+
+
+            .temp-card {
+               margin-top: 30px !important;
+                text-align: center;
+                border: 3px solid rgba(0, 0, 0, 0.05) !important;
+                box-shadow: 7px 6px 5px 0px rgba(174, 172, 172, 0.75);
+                margin: mx-auto !important;
+                margin-left: 70px !important;
+                width: 52% !important;
+                height: 85vh !important;
+
+      
+
+            }
+
+            img {
+             
+                width: 70%;
+                height: auto !important;
+            
+              
+            }
+        }
+
+        /*................................. for-mobile */
+        @media (max-width : 426px) {
+            body {
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+                background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                    linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                    linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%) !important;
+                display: block !important;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+
+            .temp-card {
+                margin-top: 30px !important;
+                text-align: center;
+                border: 3px solid rgba(0, 0, 0, 0.05) !important;
+                box-shadow: 7px 6px 5px 0px rgba(174, 172, 172, 0.75);
+                margin: mx-auto;
+                margin-left: 70px !important;
+                width: 52% !important;
+                height: 70vh !important;
+
+            }
+
+            h2 {
+                font-size: 18px;
+
+            }
+
+            h4 {
+                font-size: 12px;
+            }
+
+
+            img {
+                width: 100%;
+                height: auto;
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <!-- ...................bootstrap-js-link -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!-- ...........................external-js-link -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
